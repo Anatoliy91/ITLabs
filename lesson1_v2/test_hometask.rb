@@ -108,8 +108,8 @@ class Hometask < Test::Unit::TestCase
     assert(@driver.find_element(:link, 'Bug_1').displayed?)
   end
 
-  #def teardown
-    #@driver.quit
-  #end
+  def teardown
+    @driver.quit
+  end
 
 end
